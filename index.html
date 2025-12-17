@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>IT-LANCE</title>
+  </head>
+
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header>
+      <div class="logo">
+        <img src="logo/logo-it-lance.png" alt="IT-LANCE" />
+
+        <!-- SEND BUTTON-Ը ՏԵՂԱՓՈԽԵԼ ԱՅՍՏԵՂ -->
+        <button class="send-btn">отправить заявку</button>
+
+        <div class="burger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-menu">
+          <div class="nav-close">
+            <i class="fas fa-times"></i>
+          </div>
+          <ul>
+            <li><a href="#">наши услуги</a></li>
+            <li><a href="#possibilities">статьи</a></li>
+            <li><a href="#work-steps">информация</a></li>
+            <li><a href="#faq">о нас</a></li>
+            <li><a href="#contact">контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="hero-title">
+        <h1>Проектирование и установка систем видеонаблюдения</h1>
+        <p>Защитите свой бизнес от неожиданных сбоев!</p>
+        <button class="more" id="more">Узнать больше</button>
+      </div>
+      <div class="hero-images">
+        <img src="hero/da87554d45ffb56de68bf7b46979eee53189aa9d.png" alt="" />
+        <img src="hero/cdf8468d97235afcac8110a7f62b1b2cbcecfd47.png" alt="" />
+        <img src="hero/6e383109cfd1bdbdd2c6c1fb05d0cc2c9c0bc283.png" alt="" />
+        <img src="hero/506117c54c10ce17c1103b9ba972ac9fe53654d7.png" alt="" />
+        <img src="hero/277c76053dca5b892c4ea5602096460602afb8a2.png" alt="" />
+      </div>
+      <!-- Floating elements -->
+      <div class="floating-element floating-1"></div>
+      <div class="floating-element floating-2"></div>
+      <div class="floating-element floating-3"></div>
+    </div>
+
+    <!-- ==== possibilities ===== -->
+    <div class="possibilities" id="possibilities">
+      <h1>ВОЗМОЖНОСТИ</h1>
+      <div class="container">
+        <!-- ==== CARD 1 ==== -->
+        <div class="card">
+          <div class="card-image">
+            <img src="card-img/1.png" alt="Видеонаблюдение через интернет" />
+          </div>
+          <div class="card-icon">
+            <div class="icon-png">
+              <img src="card-icon/brightness 1.png" alt="pc" />
+            </div>
+          </div>
+          <div class="card-title">
+            <h4>Видеонаблюдение через интернет</h4>
+            <p>
+              Для онлайн доступа к камерам достаточно иметь доступ к Интернету
+              на объекте. Подключившись удаленно к системе видеонаблюдения можно
+              просматривать видео и запись в режиме времени.
+            </p>
+          </div>
+        </div>
+
+        <!-- ==== CARD 2 ==== -->
+        <div class="card">
+          <div class="card-image">
+            <img src="card-img/2.png" alt="Запись звука" />
+          </div>
+          <div class="card-icon">
+            <div class="icon-png">
+              <img src="card-icon/microphone 1.png" alt="microphone" />
+            </div>
+          </div>
+          <div class="card-title">
+            <h4>Запись звука</h4>
+            <p>
+              Наличие микрофона поможет проанализировать качество обслуживания
+              персонала, прослушать разговоры няни и репетиторов с детьми,
+              детально разобраться в случае возникновения конфликта.
+            </p>
+          </div>
+        </div>
+
+        <!-- ==== CARD 3 ==== -->
+        <div class="card">
+          <div class="card-image">
+            <img src="card-img/3.png" alt="Детектор движения" />
+          </div>
+          <div class="card-icon">
+            <div class="icon-png">
+              <img src="card-icon/data-theft 1.png" alt="Детектор движения" />
+            </div>
+          </div>
+          <div class="card-title">
+            <h4>Детектор движения</h4>
+            <p>
+              Видеокамеры способны определять движение объектов. Это важно,
+              когда нужно настроить запись только при обнаружении движения или
+              обозначить границы, при пересечении которых система оповестит об
+              этом.
+            </p>
+          </div>
+        </div>
+
+        <!-- ==== CARD 4 ==== -->
+        <div class="card">
+          <div class="card-image">
+            <img src="card-img/4.png" alt="Просмотр архивных видеозаписей" />
+          </div>
+          <div class="card-icon">
+            <div class="icon-png">
+              <img src="card-icon/video-files 1.png" alt="Детектор движения" />
+            </div>
+          </div>
+          <div class="card-title">
+            <h4>Просмотр архивных видеозаписей</h4>
+            <p>
+              Видео с каждой камеры записывается отдельно. Зная приблизительно,
+              когда и где произошло интересующее Вас событие, без труда можно
+              найти важный фрагмент и сохранить его на жесткий диск компьютера
+              или на флеш-карту.
+            </p>
+          </div>
+        </div>
+
+        <!-- ==== CARD 5 ==== -->
+        <div class="card">
+          <div class="card-image">
+            <img src="card-img/5.png" alt="Запись видео в полной темноте" />
+          </div>
+          <div class="card-icon">
+            <div class="icon-png">
+              <img src="card-icon/brightness 1.png" alt="Детектор движения" />
+            </div>
+          </div>
+          <div class="card-title">
+            <h4>Запись видео в полной темноте</h4>
+            <p>
+              При снижении освещенности в помещении или на улице видеокамеры
+              переходят в ночной режим съемки. Даже при съемке в темноте
+              качество видео остается на очень высоком уровне.
+            </p>
+          </div>
+        </div>
+
+        <!-- ==== CARD 6 ==== -->
+        <div class="card">
+          <div class="card-image">
+            <img src="card-img/6.png" alt="Видеоконтроль и защита от краж" />
+          </div>
+          <div class="card-icon">
+            <div class="icon-png">
+              <img
+                src="card-icon/motion-sensor 1.png"
+                alt="Детектор движения"
+              />
+            </div>
+          </div>
+          <div class="card-title">
+            <h4>Видеоконтроль и защита от краж</h4>
+            <p>
+              Никакая охрана не обеспечит круглосуточный контроль витрин,
+              складов, зон погрузки/разгрузки транспорта. Но система
+              видеонаблюдения, если не заменит, то станет хорошим инструментом
+              для службы безопасности.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== BUSINESS ==== -->
+    <div class="business">
+      <h1>РЕШЕНИЯ ДЛЯ <span>ВАШЕГО БИЗНЕСА</span></h1>
+
+      <div class="box">
+        <!-- ==== CARD 1 ==== -->
+        <div class="business-card">
+          <div class="image-container">
+            <video autoplay muted loop playsinline>
+              <source
+                src="business/profile/video/1998560-hd_1920_1080_24fps.mp4"
+                type="video/mp4"
+              />
+              Ձեր բրաուզերը չի ապահովում վիդեո թեգը:
+            </video>
+          </div>
+          <div class="profile">
+            <img src="business/profile/elon musk.png" alt="Elon Musk" />
+            <div class="profile-info">
+              <h5>Elon Musk</h5>
+              <p>Product manager</p>
+            </div>
+            <div class="month">
+              <h5>October 12, 2021</h5>
+              <p>Space X Company</p>
+            </div>
+          </div>
+          <div class="message">
+            <h4>
+              Had i not that Nexar dash cam, i'd still be going back and forth
+            </h4>
+            <ul>
+              <li>Возврат инвестиция в IT-инфраструктру</li>
+              <li>Минимизируйте простой оборудования</li>
+              <li>Минимизируйте простой оборудования</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ==== CARD 2 ==== -->
+        <div class="business-card">
+          <div class="image-container">
+            <video autoplay muted loop playsinline>
+              <source
+                src="business/profile/video/2239241-hd_1920_1080_24fps.mp4"
+                type="video/mp4"
+              />
+              Ձեր բրաուզերը չի ապահովում վիդեո թեգը:
+            </video>
+          </div>
+          <div class="profile">
+            <img src="business/profile/elon musk.png" alt="Elon Musk" />
+            <div class="profile-info">
+              <h5>Elon Musk</h5>
+              <p>Product manager</p>
+            </div>
+            <div class="month">
+              <h5>October 12, 2021</h5>
+              <p>Space X Company</p>
+            </div>
+          </div>
+          <div class="message">
+            <h4>
+              I didn't know what was happening and next thing you know i look to
+              my left and i've gout a truck rolling to my face
+            </h4>
+            <ul>
+              <li>Отсуствие затрат на содержание дорогостоящих специалистов</li>
+              <li>Минимизируйте простой оборудования</li>
+              <li>Фокусируйтес на стратегическом развитии компании</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ==== CARD 3 ==== -->
+        <div class="business-card">
+          <div class="image-container">
+            <video autoplay muted loop playsinline>
+              <source
+                src="business/profile/video/2512877-hd_1920_1080_30fps.mp4"
+                type="video/mp4"
+              />
+              Ձեր բրաուզերը չի ապահովում վիդեո թեգը:
+            </video>
+          </div>
+          <div class="profile">
+            <img src="business/profile/elon musk.png" alt="Elon Musk" />
+            <div class="profile-info">
+              <h5>Elon Musk</h5>
+              <p>Product manager</p>
+            </div>
+            <div class="month">
+              <h5>October 12, 2021</h5>
+              <p>Space X Company</p>
+            </div>
+          </div>
+          <div class="message">
+            <h4>
+              I didn't know what was happening and next thing you know i look to
+              my left and i've gout a truck rolling to my face
+            </h4>
+            <ul>
+              <li>Отсуствие затрат на содержание дорогостоящих специалистов</li>
+              <li>Минимизируйте простой оборудования</li>
+              <li>Фокусируйтес на стратегическом развитии компании</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ==== CARD 4 ==== -->
+        <div class="business-card">
+          <div class="image-container">
+            <video autoplay muted loop playsinline>
+              <source
+                src="business/profile/video/4043936-hd_1920_1080_24fps.mp4"
+                type="video/mp4"
+              />
+              Ձեր բրաուզերը չի ապահովում վիդեո թեգը:
+            </video>
+          </div>
+          <div class="profile">
+            <img src="business/profile/elon musk.png" alt="Elon Musk" />
+            <div class="profile-info">
+              <h5>Elon Musk</h5>
+              <p>Product manager</p>
+            </div>
+            <div class="month">
+              <h5>October 12, 2021</h5>
+              <p>Space X Company</p>
+            </div>
+          </div>
+          <div class="message">
+            <h4>
+              Had i not that Nexar dash cam, i'd still be going back and forth
+            </h4>
+            <ul>
+              <li>Возврат инвестиция в IT-инфраструктру</li>
+              <li>Минимизируйте простой оборудования</li>
+              <li>Минимизируйте простой оборудования</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="phone-input">
+      <img src="phone/Group 26.png" alt="" />
+      <h3>
+        Проект и просчет системы Видеонаблюдения для Вашего Бизнеса
+        <span>БЕСПЛАТНО!</span>
+      </h3>
+      <div class="phone-input-content">
+        <input type="tel" id="phone" placeholder="Ваш номер телефона" />
+        <div class="get-btn">
+          <button>Получить просчет</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== PRODUCTS ==== -->
+    <div class="products">
+      <h1>КАМЕРЫ ВИДЕОНАБЛЮДЕНИЯ</h1>
+      <div class="products-box">
+        <!-- ==== PRODUCT 1 ==== -->
+        <div class="products-card">
+          <img
+            src="hero/277c76053dca5b892c4ea5602096460602afb8a2.png"
+            alt="Цилиндрические камеры"
+          />
+          <div class="products-card-info">
+            <img src="products/logo/video-files 7.png" alt="Camera Icon" />
+            <h4>Цилиндрические камеры</h4>
+            <div class="products-card-p">
+              <p>
+                Видеонаблюдения чаще всего устанавливают на улице. Многие их
+                называют именно уличными видеокамерами. Все такие камеры
+                оснащены ночной подсветкой. Камеры в цилиндрическом корпусе
+                могут комплектоваться фиксированными, вариофокальными и
+                моторизированными объективами.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==== PRODUCT 2 ==== -->
+        <div class="products-card">
+          <div class="products-card-info">
+            <img src="products/logo/video-files 7.png" alt="Camera Icon" />
+            <h4>Купольные видеокамеры</h4>
+            <div class="products-card-p">
+              <p>
+                Устанавливают преимущественно в помещениях. Но их корпус защищен
+                не хуже, чем корпус цилиндрических камер, и установка купольных
+                камер на улице также возможна. Некоторые купольные камеры
+                оснащены встроенным микрофоном или аудио входом/выходом
+                микрофона. Установка купольных камер видеонаблюдения широко
+                распространена в магазинах, в офисах, в гостиницах, в подъездах,
+                в производственных цехах.
+              </p>
+            </div>
+          </div>
+          <img src="products/2.png" alt="Купольные видеокамеры" />
+        </div>
+
+        <!-- ==== PRODUCT 3 ==== -->
+        <div class="products-card">
+          <img src="products/3.png" alt="Компактные видеокамеры" />
+          <div class="products-card-info">
+            <img src="products/logo/video-files 7.png" alt="Camera Icon" />
+            <h4>Компактные видеокамеры</h4>
+            <div class="products-card-p">
+              <p>
+                В прямоугольном корпусе оснащаются микрофоном, динамиком и
+                слотом для карты памяти. Они отличаются от остальных камер тем,
+                что разъемы размещены непосредственно на корпусе, а не вынесены
+                на проводах за пределы корпуса. Компактные камеры просты в
+                установке и подходят для монтажа в квартире и в частном доме.
+                Через приложение на телефоне можно не только видеть и слышать
+                происходящее, но и обратиться к присутствующим в помещении через
+                динамик камеры.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==== PRODUCT 4 ==== -->
+        <div class="products-card">
+          <div class="products-card-info">
+            <img src="products/logo/video-files 7.png" alt="Camera Icon" />
+            <h4>Купольные компактные камеры</h4>
+            <div class="products-card-p">
+              <p>
+                Немного меньше, чем обычные купольные камеры. Они часто оснащены
+                встроенными микрофонами. Такие камеры преимущественно
+                устанавливают в помещениях. Их дизайн отлично вписывается в
+                интерьер квартир, кафе, ресторанов, офисов и частных домов.
+              </p>
+            </div>
+          </div>
+          <img src="products/4.png" alt="Купольные компактные камеры" />
+        </div>
+
+        <!-- ==== PRODUCT 5 ==== -->
+        <div class="products-card">
+          <img src="products/5.png" alt="Миниатюрные камеры" />
+          <div class="products-card-info">
+            <img src="products/logo/video-files 7.png" alt="Camera Icon" />
+            <h4>Миниатюрные камеры</h4>
+            <div class="products-card-p">
+              <p>
+                Видеонаблюдения подходят для монтажа в ночных клубах, в
+                ресторанах, в кафе. Т.е. там, где нужно, чтобы видеокамеры не
+                «бросались в глаза» и не нарушали элементы интерьера помещений.
+                Они не оснащаются микрофонами, слотами для карт памяти и ночной
+                подсветкой. Именно из-за отсутствия встроенной подсветки эти
+                камеры не пользуются широкой популярностью.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==== PRODUCT 6 ==== -->
+        <div class="products-card">
+          <div class="products-card-info">
+            <img src="products/logo/video-files 7.png" alt="Camera Icon" />
+            <h4>Поворотные камеры</h4>
+            <div class="products-card-p">
+              <p>
+                Установка поворотных видеокамер распространена не так широко. В
+                основном они нужны на предприятиях с постоянным пунктом охраны.
+                Они имеют ряд преимуществ. Например, работать в режиме
+                «патрулирования», автоматически отслеживать движущийся объект и
+                прочее. Поворотные камеры оснащаются хорошими объективами с
+                оптическим зумом. Управление такими камерами осуществляется с
+                пульта, через ПО регистратора или ПК, через мобильное
+                приложение.
+              </p>
+            </div>
+          </div>
+          <img src="products/6.png" alt="Поворотные камеры" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== QUALITY ==== -->
+    <div class="quality">
+      <div class="quality-title">
+        <h1>КАЧЕСТВО ИЗОБРАЖЕНИЯ</h1>
+      </div>
+      <div class="quality-image">
+        <img
+          src="quality/c02f6d977fadffb6405de9edda1896db662b914e.jpg"
+          alt=""
+        />
+        <div class="quality-info-row">
+          <div class="info-line"></div>
+          <div class="quality-circle">1</div>
+          <div class="quality-circle">2</div>
+          <div class="quality-circle">3</div>
+          <div class="quality-circle">4</div>
+        </div>
+        <div class="quality-permissions-row">
+          <div class="quality-image-info">
+            <div class="permission">
+              <h5>Разрешение</h5>
+              <p>1 Мп(1280 × 720)</p>
+            </div>
+          </div>
+          <div class="quality-image-info">
+            <div class="permission">
+              <h5>Разрешение</h5>
+              <p>2 Мп(2052 × 1536)</p>
+            </div>
+          </div>
+          <div class="quality-image-info">
+            <div class="permission">
+              <h5>Разрешение</h5>
+              <p>4 Мп(2560 × 1440)</p>
+            </div>
+          </div>
+          <div class="quality-image-info">
+            <div class="permission">
+              <h5>Разрешение</h5>
+              <p>6 Мп(3072 × 2048)</p>
+            </div>
+          </div>
+        </div>
+        <div class="quality-more-btn">
+          <button>ЧИТАТЬ ПОДРОБНЕЕ</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== FAQ ==== -->
+    <div class="faq" id="faq">
+      <h1>ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h1>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            Сколько времени требуется для установки системы?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Среднее время установки стандартной системы из 4-8 камер
+              составляет 1-2 рабочих дня. Для крупных объектов с 20+ камерами
+              требуется 3-5 рабочих дней.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Какая гарантия предоставляется на оборудование и работы?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Мы предоставляем гарантию на оборудование - от 1 до 3 лет в
+              зависимости от производителя. На монтажные работы - 2 года
+              гарантии.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Можно ли интегрировать вашу систему с существующей охранной
+            системой?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Да, большинство наших систем поддерживают интеграцию с другими
+              охранными системами через стандартные протоколы (ONVIF, PSIA).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== REVIEWS ==== -->
+    <div class="reviews">
+      <h1>ОТЗИВЫ НАШИХ КЛИЕНТОВ</h1>
+      <div class="reviews-container">
+        <div class="review-card">
+          <div class="review-header">
+            <img src="profile/profile2.jpg" alt="Александор Петров" />
+            <div class="review-info">
+              <h4>Александор Петров</h4>
+              <p>Директор сети супермаркетов "Продкуты+"</p>
+              <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">
+            "Установили систему видеонаблюдения в 5 магазинах. Работает
+            стабильно. качество изображения отличное. Служба поддержки
+            оперативно решает вопросы."
+          </p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <img src="profile/profile1.avif" alt="Елена Иванова" />
+            <div class="review-info">
+              <h4>Елена Иванова</h4>
+              <p>Владелец ресторана "La Belle"</p>
+              <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">
+            Профессиональная команда, чистая работа, всё сдали в срок. Особенно
+            порадовала возможность удаленного просмотра с телефона."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== WORK STEPS ==== -->
+    <div class="work-steps" id="work-steps">
+      <h1>ЭТАПЫ РАБОТЫ</h1>
+      <div class="step-container">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Консультация</h3>
+          <p>Бесплатный выезд специалиста, оценка обьекта, обсуждение задач</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Проектирование</h3>
+          <p>Разработка технического решения, подбор оборудования, смета</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Монтаж</h3>
+          <p>Установка оборудования, настройка, тестирование системы</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">4</div>
+          <h3>Обучение</h3>
+          <p>Обучение персонала, сдача объекта, гарантийное обслуживание</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== PARTNERS ==== -->
+    <div class="partners">
+      <h1>НАШИ ПАРТНЕРЫ</h1>
+      <div class="partners-logos">
+        <img src="partners/logo1.png" alt="Hikvision" />
+        <img src="partners/logo2.png" alt="Dahua" />
+        <img src="partners/logo3.png" alt="AXIS" />
+        <img src="partners/logo4.png" alt="Bosch" />
+        <img src="partners/logo5.png" alt="Samsung" />
+      </div>
+    </div>
+
+    <!-- ==== CONTACTS ==== -->
+    <div class="contacts" id="contact">
+      <h1>КОНТАКТЫ</h1>
+      <div class="contacts-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Адрес</h4>
+              <p>г. Москва, ул. Примерная, д. 123</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Телефон</h4>
+              <p>+7 (999) 123-45-67</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>info@it-lance.ru</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Режим работы</h4>
+              <p>Пн-Пт: 9:00 - 18:00</p>
+              <p>Сб: 10:00 - 16:00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&amp;source=constructor"
+            width="100%"
+            height="400"
+            frameborder="0"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== CONTACT FORM ==== -->
+    <div class="contact-form">
+      <h2>ОСТАВЬТЕ ЗАЯВКУ</h2>
+      <p>Мы свяжемя с вами в течение 30 минут</p>
+      <form id="contactForm">
+        <div class="form-row">
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="tel" placeholder="Ваше телефон" required />
+        </div>
+
+        <div class="form-row">
+          <input type="email" placeholder="Ваш email" />
+          <select required>
+            <option value="" disabled selected>Тип обьекта</option>
+            <option value="office">Офис</option>
+            <option value="store">Магазин</option>
+            <option value="warehouse">Склад</option>
+            <option value="home">Частный дом</option>
+            <option value="other">Лругое</option>
+          </select>
+        </div>
+
+        <textarea
+          placeholder="Ваше сообщение или комментарий"
+          rows="4"
+        ></textarea>
+        <button type="submit" class="submit-btn">Отправить заявку</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
